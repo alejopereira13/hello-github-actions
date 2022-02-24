@@ -1,0 +1,17 @@
+name: "Hello Description"
+description: "Greet someone"
+author: "octocat@github.com"
+
+inputs:
+  DESCRIPTION:
+    description: "What to say"
+    required: true
+    default: "Hello World!"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "green"
