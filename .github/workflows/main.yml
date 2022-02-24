@@ -9,3 +9,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+      - uses: ./action-b
+        with:
+          DESCRIPTION: "This was my first GitHub Action"
